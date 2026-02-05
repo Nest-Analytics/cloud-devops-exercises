@@ -1,3 +1,51 @@
+Deliverables (What to submit)
+
+Submit your Week 1 work in the cloud-devops-submissions repository under your personal branch in a folder named week-01/.
+
+Your week-01/ folder must include:
+
+notes.md (short write-up)
+
+screenshots/ (evidence screenshots)
+
+scripts/ (optional, only if you created any scripts)
+
+commands.txt (commands you ran)
+
+Suggested structure:
+
+week-01/
+  notes.md
+  commands.txt
+  screenshots/
+  scripts/
+
+
+Minimum evidence required:
+
+terminal evidence of the mini exercise commands completing successfully
+
+SSH connection evidence (connected to VM and ran whoami, hostname, pwd, ls)
+
+evidence that the repo was cloned on the VM (ls inside the repo folder)
+
+Submission is complete when you push your work to your branch and open a PR into main.
+
+Checklist (Self-check before submitting)
+
+I can explain “cloud” in one sentence.
+
+I can explain IaaS vs PaaS vs SaaS.
+
+I ran the Week 1 mini exercise commands and captured evidence.
+
+I connected to a Linux VM using SSH and ran the basic identity commands.
+
+I cloned the demo repo on the VM and opened its README.
+
+My submission is in week-01/ in my branch, and I opened a PR to main.
+
+
 # Acceptance Criteria
 
 ---
