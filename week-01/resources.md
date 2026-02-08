@@ -23,6 +23,11 @@ Use these resources to support Week 1 (Cloud basics, Linux terminal basics, firs
 
 ---
 
+### Install Nodejs
+- On Linux: https://nodejs.org/en/download
+
+---
+
 ## Software development lifecycle (SDLC) and delivery lifecycle
 
 - SDLC overview (AWS): https://aws.amazon.com/what-is/sdlc
