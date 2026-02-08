@@ -56,4 +56,4 @@ Use these resources to support Week 1 (Cloud basics, Linux terminal basics, firs
 - Install Git on Ubuntu:
   - `sudo apt update && sudo apt install -y git`
 - Clone:
-  - `git clone <repo_url>`
+  - `git clone https://github.com/helloSanmi/velo-learn.git`
