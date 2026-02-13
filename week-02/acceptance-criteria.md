@@ -1,4 +1,3 @@
-```md
 # Week 2 – Acceptance Criteria
 
 A submission is marked complete when all items below are met.
@@ -32,4 +31,3 @@ A submission is marked complete when all items below are met.
 - `README.md` was updated with the student name under a Contributors/Training section.
 - A PR was opened and merged in the student fork.
 - Screenshot evidence includes the merged PR page.
-```
