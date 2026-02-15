@@ -1,5 +1,5 @@
 
-## Week 2 – Resources
+## Resources
 
 Use these resources to support the Week 2 assessment (processes/logs, PM2, and Git workflow). Do not try to read everything. Use them when you get stuck or when you want deeper understanding.
 
