@@ -32,8 +32,8 @@ https://github.com/helloSanmi/learn-repo.git
 
 ### 2) Clone your fork to your laptop
 ```bash
-git clone <YOUR_FORK_URL>
-cd <REPO_FOLDER_NAME>
+git clone https://github.com/helloSanmi/learn-repo.git
+cd learn-repo
 ````
 
 ### 3) Inspect the repository locally
@@ -48,10 +48,10 @@ git log --oneline --max-count=10
 ### 4) Create a new branch
 
 Use this naming format:
-`feature/week2-git-practice`
+`feature/week2-dev`
 
 ```bash
-git checkout -b feature/week2-git-practice
+git checkout -b feature/week2-dev
 ```
 
 ### 5) Make a simple change
@@ -59,7 +59,7 @@ git checkout -b feature/week2-git-practice
 Do one of the following (choose one):
 
 * Update `README.md` by adding your name under a section called `Training student`
-* Create a new file `week-02-git-practice.txt` and add 3 lines describing what you practised
+* Create a new file `week-02-dev.txt` and add 3 lines describing what you practised
 
 Confirm the change is detected:
 
@@ -72,14 +72,14 @@ git status
 ```bash
 git add .
 git commit -m "Week 2: git practice update"
-git push -u origin feature/week2-git-practice
+git push -u origin feature/week2-dev
 ```
 
 ### 7) Open and merge a Pull Request (PR) in your fork
 
 On GitHub (in your fork):
 
-* Open a PR from `feature/week2-git-practice` into `main`
+* Open a PR from `feature/week2-dev` into `main`
 * Merge the PR
 
 ### 8) Pull the latest main (after merge)
