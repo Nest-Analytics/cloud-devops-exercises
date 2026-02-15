@@ -1,4 +1,4 @@
-# Week 2 – Optional Practice: Git Workflow (Fork, Branch, PR)
+# Optional Practice: Git Workflow (Fork, Branch, PR)
 
 This is optional practice for extra confidence with Git and GitHub. You can submit it if you want.
 
