@@ -1,4 +1,4 @@
-Networking Basics (Internal vs External Access)
+## Networking Basics (Internal vs External Access)
 
 Complete this lab on your own VM.
 
