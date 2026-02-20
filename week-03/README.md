@@ -1,4 +1,4 @@
-# Week 3 – Student Exercise: Networking Basics (Internal vs External Access)
+Networking Basics (Internal vs External Access)
 
 Complete this lab on your own VM.
 
@@ -25,7 +25,7 @@ Note the private IP that looks like `10.x.x.x` or `192.168.x.x`.
 
 ---
 
-### 2) Confirm Velo-learn is running in PM2
+### 2) Confirm Velo-learn is running in PM2 (Refer to Week 2 Exercise)
 
 Run:
 
@@ -37,7 +37,7 @@ If the app is not running, start it:
 
 ```bash
 cd /home/azureuser/Velo-learn
-pm2 start npm --name velo-learn -- start
+pm2 start npm --name velo-learn -- run dev
 pm2 save
 ```
 
@@ -133,45 +133,5 @@ Then confirm again:
 ```text
 http://<YOUR_PUBLIC_IP>:3000
 ```
-
----
-
-## What to submit
-
-Submit your Week 3 work in `cloud-devops-submissions` under:
-
-`week-03/`
-
-Include:
-
-* `notes.md`
-* `screenshots/`
-
----
-
-## Notes to include in `notes.md`
-
-1. Your private IP (from `hostname -I`)
-2. Your public IP (from the portal)
-3. A short results summary in this format:
-
-**When port 3000 was allowed in the NSG**
-
-* `curl http://localhost:3000` from VM: <result>
-* Browser to `http://PUBLIC_IP:3000` from laptop: <result>
-
-**When port 3000 was blocked in the NSG**
-
-* `curl http://localhost:3000` from VM: <result>
-* Browser to `http://PUBLIC_IP:3000` from laptop: <result>
-
----
-
-## Screenshots required
-
-Add these screenshots to `week-03/screenshots/`:
-
-1. `pm2 list` output
-2. NSG inbound rule showing the allow rule for TCP 3000 (rule name and port visible)
 
 This lab links app health (PM2 + local curl) to network access (NSG rules + external browser access).
