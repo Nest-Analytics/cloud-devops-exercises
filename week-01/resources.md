@@ -11,6 +11,8 @@ Use these resources to support Week 1 (Cloud basics, Linux terminal basics, firs
 - Azure Free Services (what is free and for how long): https://azure.microsoft.com/en-us/pricing/free-services
 - Azure for Students (if eligible): https://azure.microsoft.com/en-gb/free/students
 
+Note: For Azure trial, you will need unique outlook.com email, unique phone number, unique bank card
+
 ### AWS
 - AWS Free Tier overview: https://aws.amazon.com/free
 - AWS account sign-up page: https://signin.aws.amazon.com/signup?request_type=register
