@@ -16,8 +16,8 @@ You are free to use any resource: the GitHub Actions docs, Azure docs, lecture n
 ### 1. Fork and clone this repository
 
 ```bash
-git clone https://github.com/helloSanmi/learn-repo.git
-cd learn-repo
+git clone https://github.com/helloSanmi/dev-ops-learn-repo.git
+cd dev-ops-learn-repo
 npm install
 npm run dev   # make sure it runs locally
 ```
@@ -100,12 +100,12 @@ sudo apt-get install -y nodejs
 sudo npm install -g pm2
 
 # Clone the repository
-git clone https://github.com/helloSanmi/learn-repo.git /home/azureuser/learn-repo
-cd /home/azureuser/learn-repo
+git clone https://github.com/helloSanmi/dev-ops-learn-repo.git /home/azureuser/dev-ops-learn-repo
+cd /home/azureuser/dev-ops-learn-repo
 npm install
 
 # Start the app using the 'npm run dev' script via PM2
-pm2 start npm --name "learn-repo" -- run dev
+pm2 start npm --name "dev-ops-learn-repo" -- run dev
 
 # Save the current PM2 process list so it can be restored on boot
 pm2 save
@@ -121,8 +121,8 @@ pm2 startup
 | `VM_HOST` | Public IP address of your Azure VM | Azure Portal → Virtual Machines → your VM → Overview → **Public IP address** |
 | `VM_USERNAME` | Admin username of the VM | The username you set when creating the VM (default: `azureuser`) |
 | `VM_SSH_PRIVATE_KEY` | Private SSH key to authenticate with the VM | If you downloaded a `.pem` during VM creation: open the file, copy all contents. If generating fresh: run `ssh-keygen -t rsa -b 4096 -f ~/.ssh/vm_key`, then upload `vm_key.pub` to the VM via Azure Portal → VM → Reset password (Public key option), and use `vm_key` (private) as the secret value |
-| `VM_APP_DIR` | Full path to the app on the VM | The path you cloned into, e.g. `/home/azureuser/learn-repo` |
-| `PM2_APP_NAME` | The name you gave PM2 when starting the app | The `--name` value from your `pm2 start` command, e.g. `learn-repo` |
+| `VM_APP_DIR` | Full path to the app on the VM | The path you cloned into, e.g. `/home/azureuser/dev-ops-learn-repo` |
+| `PM2_APP_NAME` | The name you gave PM2 when starting the app | The `--name` value from your `pm2 start` command, e.g. `dev-ops-learn-repo` |
 
 **What to complete:** trigger, runner for both jobs, checkout, Node version, install and test commands, `needs:` field, SSH action credential references, script commands (cd, git pull, npm install, pm2 restart).
 
