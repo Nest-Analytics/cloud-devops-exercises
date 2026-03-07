@@ -126,6 +126,8 @@ pm2 startup
 
 **What to complete:** trigger, runner for both jobs, checkout, Node version, install and test commands, `needs:` field, SSH action credential references, script commands (cd, git pull, npm install, pm2 restart).
 
+**What to note:** this app will run on port 8080, don't forget to open that port on your network.
+
 ---
 
 ## Making a Change to Test Your Pipelines
