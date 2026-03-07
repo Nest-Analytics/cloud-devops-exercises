@@ -1,6 +1,6 @@
-# Week 1 – Resources
+# Resources
 
-Use these resources to support Week 1 (Cloud basics, Linux terminal basics, first cloud VM + SSH, and cloning the demo app).
+Use these resources to support (Cloud basics, Linux terminal basics, first cloud VM + SSH, and cloning the demo app).
 
 ---
 
