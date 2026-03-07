@@ -1,6 +1,6 @@
 ## Resources
 
-Use these resources to support Week 4 (Web App creation, ZIP deploy, GitHub-based deployment, and environment variables).
+Use these resources to support (Web App creation, ZIP deploy, GitHub-based deployment, and environment variables).
 
 1) Azure App Service (Web App) overview  
 https://learn.microsoft.com/en-us/azure/app-service/overview
