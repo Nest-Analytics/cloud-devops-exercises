@@ -6,7 +6,7 @@ Complete this lab on your own VM.
 
 ## Task summary
 
-Your Week 3 exercise is to prove to yourself that:
+Your exercise is to prove to yourself that:
 
 - the app can be reachable internally and externally
 - external access depends on port rules
