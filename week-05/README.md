@@ -100,7 +100,7 @@ sudo apt-get install -y nodejs
 sudo npm install -g pm2
 
 # Clone the repository
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git /home/azureuser/learn-repo
+git clone https://github.com/helloSanmi/learn-repo.git /home/azureuser/learn-repo
 cd /home/azureuser/learn-repo
 npm install
 
